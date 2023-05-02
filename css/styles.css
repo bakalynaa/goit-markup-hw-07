@@ -281,7 +281,6 @@
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    margin-top: 120px;
   }
   
   /* .us-bisnez {
@@ -677,6 +676,11 @@
     padding: 72px 24px 24px;
     transform: translate(-50%, -50%) scale(1) rotate(0);
     transition: transform 250ms linear;
+    width: 95%;
+    max-width: 392px;
+    height: 95%;
+    max-height: 586px;
+    overflow: scroll;
   }
   
   .backdrop.is-hidden .modal {
